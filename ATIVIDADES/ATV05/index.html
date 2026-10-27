@@ -1,0 +1,240 @@
+<html lang ="pt-BR">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ATV 05</title>
+	</head>
+<body>
+	<header>
+		<h1>Portal Multimídia de Tecnologia</h1>
+			<p>Explore o universo da computação, programação e inovação</p>
+			<nav>
+				<a href="#Galeria">Galeria | </a>
+				<a href="#podcast">podcast | </a>
+				<a href="#Video">Video | </a>
+				<a href="#Comportamento">Componentes | </a>
+				<a href="#Biblioteca">Biblioteca | </a>
+				<a href="#Matematica">Matemática | </a>
+		
+			</nav>
+	</header>
+	
+		<hr />
+		
+	<main>
+		<section>
+			<h2>Galeria de Tecnologia</h2>
+				<figure>
+						<img src = "img/computador.jpg"  width="25%" alt ="computação" title = "Computador">
+						<figcaption>Estação de Desenvolvimento</figcaption>
+						<img src = "img/robotica.jpg"  width="25%" alt ="robotica" title = "Computador">
+						<figcaption>Robótica e automação</figcaption>
+				</figure>
+				
+			<h2 id="Galeria">Imagem responsiva</h2>
+				<picture>
+				<source media="(max-width: 720px)" srcset="img/laboratorio-mobile.jpg">
+				<source media="(min-width: 721px)" srcset="img/laboratorio.jpg">
+				<img src ="img/laboratorio.jpg" alt ="laboratorio informatica">
+				<figcaption>A Tecnologia está presente no desenvolvimento de sistemas, automação e na comunicação</figcaption>
+				</picture>
+		</section>
+		
+		<hr />
+		
+		<section>
+				<h2 id="podcast">Podcast de Tecnologia </h2>
+				<p><strong>O futuro da programação</strong></P>
+				<p>Neste episódio, discutimos linguagem de programção, inteligencia artificial e carreira.</p>
+					<audio controls>
+					<source src="audio/DevNaEstrada.mp3" type="audio/mpeg">
+					</audio>
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2 id="Video">Aula em Video</h2>
+			<p><strong>Introdução à programção</strong></p>
+				<video controls width="30%" poster="img/capa-video.jpg">
+					<source src="video/aula.mp4" type="video/mp4">
+					<track src="video/legenda.vtt" kind="subtitles" srclang="pt-BR" label="Português" default />
+					Esse navegador não suporta a reprodução de vídeo
+				</video>
+				<p>Assista e acompanhe as legendas disponiveis no reprodutor.</p>
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2 id="Componentes">Mapa interativo de Componentes</h2>
+			  <p>Assista e acompanhe as legendas disponiveis no reprodutor.</p>
+				<img src="img/mapa-componentes.jpg"
+					 alt="Mapa de componentes"
+					 width="335"
+					 height="597"
+					 usemap="#mapa">
+					<map name="mapa">
+						<area shape="rect"
+							  coords="10,195,325,248"
+							  href="#processador"
+							  alt="Processador">
+						<area shape="rect"
+							  coords="10,309,325,362"
+							  href="#memoria"
+							  alt="Memória RAM">
+						<area shape="rect"
+							  coords="10,412,325,476"
+							  href="#Armazenamento"
+							  alt="Armazenamento">
+					</map>
+				<h3 id = "processador">Processador</h3>
+					<p>Executar instruções e realiza operações</p>
+				<h3 id = "memoria">Memória RAM</h3>
+					<p>Armazena temporariamente dados em uso</p>
+				<h3 id = "Armazenamento">Armazenamento</h3>
+					<p>Guarda arquivos e programas de forma persistente</p>
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2 id="Biblioteca">Biblioteca Digital</h2>
+				<p><strong>Apostila HTML</strong></p>
+					<object
+						data="file/HTML.pdf"
+						type="application/pdf"
+						width="600"
+						height="400">
+					</object>
+				<h3>Material complementar</h3>
+					<p>Consulte também o conteúdo educacional incorporado abaixo, quando disponivel.</p>
+				
+					<iframe 
+						width="560" 
+						height="315" 
+						src="https://www.youtube.com/embed/rdhozX_-pJ0?si=98OUtoUi1XrSrGp-" 
+						title="YouTube video player" 
+						frameborder="0">
+					</iframe>
+					
+				<h3>Visualizador alternativo</h3>
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2>Ilustração Vetorial</h2>
+			<p>O SVG permite construir desenhos atilizando formas geométricas.</p>
+			    <svg width="300" height="180"
+					 viewBox="0 0 300 180"
+					 role="img"
+					 aria-label="Ilustração vetorial de um computador">
+					<rect x="50" y="20"
+						  width="200" height="110"
+						  fill="lightblue"
+						  stroke="black"
+						  stroke-width="3">
+
+					</rect>
+
+					<rect x="65" y="35"
+						  width="170" height="80"
+						  fill="white"
+						  stroke="black">
+
+					</rect>
+
+					<circle cx="150" cy="75"
+							r="20"
+							fill="royalblue">
+
+					</circle>
+
+					<line x1="150" y1="130"
+						  x2="150" y2="150"
+						  stroke="black"
+						  stroke-width="5">
+
+					</line>
+
+					<rect x="110" y="150"
+						  width="80" height="8"
+						  fill="gray">
+
+					</rect>
+					<text x="150" y="175"
+						  text-anchor="middle"
+						  font-size="12">
+						Computador
+					</text>
+                </svg>
+			
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2>Matemática para Programadores</h2>
+				<p><strong>1. Fração</strong></p>
+				<p>Uma divisão pode ser apresentada por:</p>
+					<math xmlns="http://www.w3.org/1998/Math/MathML">
+						<mfrac>
+							<mn>a</mn>
+							<mn>b</mn>
+						</mfrac>
+					</math>
+						<h2>2. Potência</h2>
+						<p>Potências são utilizadas em diferentes cálculos:</p>
+						<math>
+							<msup>
+								<mi>x</mi>
+								<mn>2</mn>
+							</msup>
+						</math>
+						<h2>3. Equação do segundo grau</h2>
+						<math>
+							<mi>a</mi>
+							<msup>
+								<mi>x</mi>
+								<mn>2</mn>
+							</msup>
+							<mo>+</mo>
+							<mi>b</mi>
+							<mi>x</mi>
+							<mo>+</mo>
+							<mi>c</mi>
+							<mo>=</mo>
+							<mn>0</mn>
+						</math>
+					
+		</section>
+
+		<section>
+			<h2>Curiosidades da Computação</h2>
+			<article>
+				<h3>O código-fonte</h3>
+					<p>O <abbr title="HyperText Markup Language">HTML</abbr> estrutura o conteúdo das páginas web.</p>
+					<p>Uma boa prática é utilizar <strong>código organizado</strong> e <em>elementos semanticamente corretos</em>.</p>
+					<p><strong><mark>Importante:</mark></strong> nem todo conteúdo externo pode ser incorporado.</p>
+					<p>Exemplo de código: <code>print("Olá, mundo!")</code></p>
+							<blockquote>Aprender a programar exige prática, raciocínio lógico e compreensão dos fundamentos.</blockquote>
+					<p><small>Publicado em <time datetime="2026-10-14">14 de outubro de 2026</time>.</small></p>
+			</article>
+		</main>
+			<aside>
+				<h3>Você sabia?</h3>
+				<p>Imagens, áudio, vídeo e gráficos vetoriais podem enriquecer uma página sem exigir necessariamente CSS ou JavaScript.</p>
+			</aside>
+		</section>
+		
+		<hr>	
+		
+			<footer>
+				<address>
+					<cite>Portal Multimídia de Tecnologia</cite><br>
+					Projeto educacional de HTML5
+				</address>
+				<p><small>Desenvolvido para fins educacionais.</small></p>
+			</footer>
+	</body>
