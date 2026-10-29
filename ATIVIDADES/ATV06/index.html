@@ -1,0 +1,141 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Gestão de Hardware</title>
+</head>
+<body>
+ 
+  <header>
+    <h1>Portal de Gestão de Hardware</h1>
+    <p>Sistema de controle de equipamentos, patrimônio e manutenção do setor de Tecnologia da Informação.</p>
+  </header>
+ 
+  <hr>
+ 
+  <main>
+ 
+    <section>
+      <h2>1. Inventário de equipamentos</h2>
+      <p>Consulte os equipamentos disponíveis no estoque, suas quantidades e seus respectivos valores.</p>
+ 
+      <table border="1">
+        <caption>Inventário de Hardware da Empresa</caption>
+        <thead>
+          <tr>
+            <th scope="col">Patrimônio</th>
+            <th scope="col">Equipamento</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">Quantidade</th>
+            <th scope="col">Valor unitário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>EQ001</td>
+            <td>Notebook Dell</td>
+            <td>Computador</td>
+            <td>5</td>
+            <td>R$ 3.000,00</td>
+          </tr>
+          <tr>
+            <td>EQ002</td>
+            <td>Monitor Full HD</td>
+            <td>Periférico</td>
+            <td>8</td>
+            <td>R$ 800,00</td>
+          </tr>
+          <tr>
+            <td>EQ003</td>
+            <td>Teclado USB</td>
+            <td>Periférico</td>
+            <td>12</td>
+            <td>R$ 100,00</td>
+          </tr>
+          <tr>
+            <td>EQ004</td>
+            <td>Desktop corporativo</td>
+            <td>Computador</td>
+            <td>3</td>
+            <td>R$ 4.500,00</td>
+          </tr>
+          <tr>
+            <td>EQ005</td>
+            <td>Impressora de rede</td>
+            <td>Impressão</td>
+            <td>2</td>
+            <td>R$ 1.200,00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="3">Total de equipamentos</th>
+            <td>30</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th scope="row" colspan="4">Valor total estimado do inventário</th>
+            <td>R$ 38.500,00</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+	
+	<hr />
+	
+	<section>
+		<h1>2. Cadastro de equipamentos</h1>
+		<p>Preencha os dados abaixo para registrar um novo equipamento no inventário.</p>
+		
+		 <fieldset>
+          <legend>Identificação do equipamento</legend>
+ 
+          <p>
+            <label for="nome">Nome do equipamento:</label>
+            <input type="text" list="sugestoes-equipamentos" placeholder="Digite o nome">
+            <datalist id="sugestoes-equipamentos">
+              <option value="Notebook Dell"></option>
+              <option value="Monitor Full HD"></option>
+              <option value="Teclado USB"></option>
+              <option value="Mouse óptico"></option>
+              <option value="Desktop corporativo"></option>
+              <option value="Impressora de rede"></option>
+              <option value="Switch gerenciável"></option>
+              <option value="Roteador Wi-Fi"></option>
+            </datalist>
+          </p>
+		  
+		  <p>
+			<label>Código de patrimônio:</label>
+			<input type="text" list="sugestoes-codigos" placeholder="Ex.: EQ006">
+			<datalist id="sugestoes-codigos">
+				<option value="EQ001"></option>
+				<option value="EQ002"></option>
+				<option value="EQ003"></option>
+				<option value="EQ004"></option>
+				<option value="EQ005"></option>
+			</datalist>
+		  </p>
+		  
+		   <p>
+            <label>Data de aquisição:</label>
+			 <input type="date">
+		  </p>
+		  
+			<p>
+		  <label for="categoria">Categoria:</label>
+			<select id="categoria" name="categoria" required>
+			<option value="" disabled selected hidden>Selecione uma categoria</option>
+
+				<optgroup label="Categorias de equipamentos">
+				  <option value="computador">Computadores</option>
+				  <option value="periferico">Periféricos</option>
+				  <option value="impressao">Impressão</option>
+				</optgroup>
+			</select>
+			</p>
+        </fieldset>
+	</section>
+ 
+    <hr>
+</body>
