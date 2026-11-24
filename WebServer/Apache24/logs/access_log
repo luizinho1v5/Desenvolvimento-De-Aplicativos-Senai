@@ -152,3 +152,11 @@
 ::1 - - [16/Nov/2026:21:39:55 -0300] "GET /AtividadeCSS/ATV09/img/comidas.jpg HTTP/1.1" 404 236
 ::1 - - [16/Nov/2026:21:39:55 -0300] "GET /AtividadeCSS/ATV09/img/fotos.jpg HTTP/1.1" 404 236
 ::1 - - [16/Nov/2026:21:39:55 -0300] "GET /AtividadeCSS/ATV09/img/galeria.jpg HTTP/1.1" 404 236
+::1 - - [23/Nov/2026:21:21:54 -0300] "GET / HTTP/1.1" 200 514
+::1 - - [23/Nov/2026:21:21:58 -0300] "GET /AtividadeCSS/ HTTP/1.1" 200 339
+::1 - - [23/Nov/2026:21:21:59 -0300] "GET /AtividadeCSS/ATV09/ HTTP/1.1" 200 6002
+::1 - - [23/Nov/2026:21:21:59 -0300] "GET /AtividadeCSS/ATV09/css/style.css HTTP/1.1" 200 4449
+::1 - - [23/Nov/2026:21:21:59 -0300] "GET /AtividadeCSS/ATV09/imagens/comidas.jpg HTTP/1.1" 404 236
+::1 - - [23/Nov/2026:21:21:59 -0300] "GET /AtividadeCSS/ATV09/imagens/galeria.jpg HTTP/1.1" 404 236
+::1 - - [23/Nov/2026:21:21:59 -0300] "GET /AtividadeCSS/ATV09/imagens/fotos.jpg HTTP/1.1" 404 236
+::1 - - [23/Nov/2026:21:21:59 -0300] "GET /AtividadeCSS/ATV09/imagens/topo.jpg HTTP/1.1" 404 236
