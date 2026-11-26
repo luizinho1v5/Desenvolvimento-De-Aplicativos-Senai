@@ -21,3 +21,11 @@ core:warn] [pid 12052:tid 488] AH00098: pid file C:/WebServer/Apache24/logs/http
 [Mon Nov 16 18:53:47.871395 2026] [core:notice] [pid 12052:tid 488] AH00094: Command line: 'C:\\WebServer\\Apache24\\bin\\httpd.exe -d C:/WebServer/Apache24'
 [Mon Nov 16 18:53:47.876406 2026] [mpm_winnt:notice] [pid 12052:tid 488] AH00418: Parent: Created child process 10392
 [Mon Nov 16 18:53:48.300170 2026] [mpm_winnt:notice] [pid 10392:tid 468] AH00354: Child: Starting 64 worker threads.
+Starting the 'Apache24' service
+The 'Apache24' service is running.
+core:warn] [pid 7204:tid 444] AH00098: pid file C:/WebServer/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 25 21:00:06.981395 2026] [mpm_winnt:notice] [pid 7204:tid 444] AH00455: Apache/2.4.70 (Win64) configured -- resuming normal operations
+[Wed Nov 25 21:00:06.981395 2026] [mpm_winnt:notice] [pid 7204:tid 444] AH00456: Apache Lounge VS18 Server built: Nov  5 2026 09:10:53
+[Wed Nov 25 21:00:06.981395 2026] [core:notice] [pid 7204:tid 444] AH00094: Command line: 'C:\\WebServer\\Apache24\\bin\\httpd.exe -d C:/WebServer/Apache24'
+[Wed Nov 25 21:00:06.984394 2026] [mpm_winnt:notice] [pid 7204:tid 444] AH00418: Parent: Created child process 20264
+[Wed Nov 25 21:00:07.414393 2026] [mpm_winnt:notice] [pid 20264:tid 484] AH00354: Child: Starting 64 worker threads.
